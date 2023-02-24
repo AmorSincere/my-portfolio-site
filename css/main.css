@@ -1,0 +1,317 @@
+/* ****************** CLASSES ********************** */
+
+
+.bg-whatdark{
+    background-color: #363636;
+}
+
+
+.bg-sectiondarker{    
+    background-color:#333333 ;
+}
+.bg-sectiondark{ 
+    background-color:#393939 ;
+}
+.bg-forfun{
+    background-color: #363636;
+}
+.user-select-none{
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************** STYLES ************************* */
+/* ******** HEADER ********* */
+/* header img{
+    width: 100vw;
+    filter:brightness(50%) sepia(50%) grayscale(50%);
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: -1;
+} */
+header .greeting{
+    height: calc( 100vh - 64px );
+}
+html{
+    scroll-behavior: smooth;
+}
+header h3, p {
+    margin: 0;
+}
+header{
+    background-image: url("../images/headerimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    user-select: none;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+/* ******** ABOUT ********** */
+.about{
+    min-height:100vh;
+    line-height: 1.2;
+}
+.about .card{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+.about img{
+    filter:brightness(50%) sepia(50%) grayscale(50%);
+}
+
+/* ******** WHAT I DO ********** */
+
+.whatido .container .row .col-4 img{
+    height: 50px;
+}
+.whatido .container .row .col-4 hr{
+    width: 50px;
+    height: 2px;
+    margin: auto;
+}
+.whatido .container .row .col-4 {
+    box-shadow: 0 0  1px rgba(211, 211, 211, 0.3);
+}
+
+/* ******** MESSAGE ********** */
+.message{
+    min-height: 70vh;
+    max-height: 100vh;
+}
+.message .col-4 {
+    margin-top: 100px;
+}
+
+.message  img{
+    width: 100px;
+}
+
+.message  button img{
+    width: 23px !important;
+}
+
+/* ******** STALKME ********** */
+
+.stalkme .icon-links img{
+    width: 40px;
+}
+.stalkme .icon-links{
+    margin: auto;
+    width: 45vw;
+
+}
+.stalkme p{
+    cursor: pointer;
+}
+
+/* ******** PORTFOLIO ********** */
+
+.portfolio{
+    min-height: 100vh;
+    user-select: none;
+}
+
+.portfolio .col-3 img{
+    transition: all 0.27s linear;
+    filter:brightness(70%);
+}
+
+.portfolio .col-3:hover img{
+    filter:brightness(100%)  ;
+    /* transform: scale(1.07); */
+}
+
+.portfolio .col-3{
+    transition: all 0.27s linear;
+}
+.portfolio .col-3:hover{
+    box-shadow: 0 0 20px lightgray;
+}
+.portfolio .col-3 .card{
+    position: relative;
+}
+.portfolio .col-3 .card a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************QUERIES**************** */
+
+/* @media (min-width: 993px) and (max-width: 1090px) {
+    body .navbar .input-group {
+      width: 350px;
+      margin-left: 0; } } */
+    
+@media (max-width: 605px) {
+    .stalkme .icon-links {
+    width: 80vw; } }
+
+
+@media (max-width: 992px) {
+    .whatido p {
+        font-size: 10px }
+    .whatido .col-4{
+        border: none!important;
+    } }
+
+
+
+@media (max-width: 768px) {
+    .whatido .col-4 img {
+        height: 30px!important; }
+    .whatido .col-4{
+        width: 50%;
+    } }
+@media (max-width: 529px) {
+    .whatido p {
+        font-size: 18px }
+    .whatido .col-4{
+        width: 100%;
+    } }
+
+@media (max-width: 768px) {
+.ihaveworkedwith .col-8{
+    width: 100%;
+} 
+.ihaveworkedwith .col-4{
+    width: 50%;
+} 
+.ihaveworkedwith .row{
+    justify-content: center;
+   
+} 
+.ihaveworkedwith .col-4{
+    margin-top: 30px;
+} 
+}
+
+@media (max-width: 451px) {
+.ihaveworkedwith .col-4{
+    width: 100%;
+}
+}
+
+@media (max-width: 992px) {
+    .portfolio .row{
+        justify-content: center;
+    }
+.portfolio .col-3{
+    width: 50%;
+}
+}
+@media (max-width: 576px) {
+    .portfolio .col-3{
+        width: 70%;
+    }
+    }
+    @media (max-width: 350px) {
+        .portfolio .col-3{
+            width: 100%;
+        }
+        }
+
+       
+
+ @media (max-width: 992px) {
+    .message .row{
+        justify-content: center;
+    }
+        .message .col-4{
+            width: 50%;
+        }
+        .message .col-4 img{
+            width: 70px;
+        }
+        }
+ @media (max-width: 768px) {
+.message .col-4{
+    width: 60%;
+}
+.message .col-4 h3{
+ font-size: 18px;
+}
+}
+@media (max-width: 425px) {
+    .message .col-4{
+        width: 80%;
+    }
+
+    }
+@media (max-width: 345px) {
+    .message .col-4{
+        width: 100%;
+    }
+    .message .col-4 img{
+        width: 50px;
+    }
+    }
+
+@media (max-width: 992px) {
+    .stalkme p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+}
+@media (max-width: 768px) {
+    .stalkme p{
+        font-size: 13px;
+    }
+
+}
+@media (max-width: 576px) {
+    .stalkme p{
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 12px;
+    }
+
+}

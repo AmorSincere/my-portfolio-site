@@ -1,0 +1,39 @@
+
+
+p teglarini orasini(height) line heightini togrlashim kk
+
+yozuvlarni togrlashim kerak
+
+fontlarni togrlashim kerak
+
+responsive
+
+ranglar()
+
+
+b tag bilan qilinganda bazilari uchun boldlik kopaygan masalan WHAT I DO degan qismda
+
+what i do da hr qalin boldi p tegini pastidagi
+
+
+box-shadowlarni bilan ishlamadim hali shuniyam ko'rish kerak o'zini keraksizini o'chirib qo'yish kerak, va card shunga o'xshash narsalarga bosh shadow berish moslab
+
+
+iconni rangini o'zgartirish kutubxonada qilgandek , message da btn ustiga olib borsa iconni rangi o'zgarishi kerak
+
+
+
+
+
+
+
+
+i have worked da neutral qolib ketibdi yozilmagan
+
+
+
+
+
+
+
+/
