@@ -11,7 +11,7 @@ This repository contains the code for my personal portfolio site [lightdrop.uz](
 ## Features
 
 - Mobile Responsive: The site is optimized for display on mobile devices as well as desktops.
-- Portfolio Projects: The site showcases links to some of my projects, along with project descriptions and images.
+- Portfolio Projects: The site showcases links to some of my projects, along with project images.
 - Skill Section: There is a dedicated section for showcasing my skills and expertise.
 - Contact Details: My contact information is provided on the site for easy access.
 
